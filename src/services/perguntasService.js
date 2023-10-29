@@ -1,4 +1,4 @@
-const connectToDatabase = require("../db");
+const { connectToDatabase } = require("../db");
 
 module.exports = {
     // * Busca os dados do manifesto utilizando o id do usuário
